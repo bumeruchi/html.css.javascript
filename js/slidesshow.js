@@ -9,7 +9,7 @@ next.onclick = nextSlide;
 
 function showSlides(n) {
     for (var i = 0; i<slides.length; i++){
-        slides[i].Style.display = "none";
+        slides[i].style.display = "none";
     }
     slides[n].style.display = "block";
 }
